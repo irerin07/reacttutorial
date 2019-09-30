@@ -1,10 +1,12 @@
 import React from "react"; // React를 불러와서 사용할 수 있게 해준다
-import "./App.css";
+import MyComponent from "./MyComponent";
 
-function App() {
-  const name = "리액트";
-
-  return <div className="react">{name}</div>;
-}
+const App = () => {
+  return (
+    <MyComponent name="김리액트씨" favoriteNumber={219}>
+      리액트
+    </MyComponent>
+  );
+};
 
 export default App;
