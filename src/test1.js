@@ -23,6 +23,12 @@ console.log(result);
   }}
 />;
 
+const numbers = [1, 2, 3, 4, 5, 6];
+const biggerThanThree = numbers.filter(number => number > 3);
+
+const numbers = [1, 2, 3, 4, 5, 6];
+const withOutThree = numbers.filter(number => number !== 3);
+
 import React, { Component } from "react";
 
 class RefSample extends Component {
