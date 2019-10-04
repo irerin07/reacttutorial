@@ -34,6 +34,7 @@ const IterationSample = () => {
       {name.text}
     </li>
   ));
+
   return (
     <>
       <input value={inputText} onChange={onChange} />
