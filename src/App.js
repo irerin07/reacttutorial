@@ -6,8 +6,8 @@ import React from "react"; // React를 불러와서 사용할 수 있게 해준�
 // import ScrollBox from "./ScrollBox";
 // import IterationSample from "./IterationSample";
 // import CounterHooks from "./Counter_hooks";
-// import Info from "./Info.js";
-import Counter from "./Counter.js";
+import Info from "./Info.js";
+// import Counter from "./Counter.js";
 
 // class App extends Component {
 //   render() {
@@ -15,7 +15,7 @@ import Counter from "./Counter.js";
 //   }
 // }
 const App = () => {
-  return <Counter />;
+  return <Info />;
 };
 // const App = () => {
 //   const [visible, setVisible] = useState(false);
